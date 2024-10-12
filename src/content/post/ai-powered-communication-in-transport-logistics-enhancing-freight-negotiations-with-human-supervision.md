@@ -12,6 +12,7 @@ tags:
   - AI communication in logistics
   - freight management automation
   - supervised learning in logistics
+  - freight exchange communication
 image: ~/assets/images/blog/ai-learning-logistics-communication.webp
 publishDate: 2024-10-13T18:01:00.000Z
 author: Laurentiu, tech lead
