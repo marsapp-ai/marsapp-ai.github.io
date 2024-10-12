@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: blog-data
 
 media_folder: 'src/assets/images'
 public_folder: '/_astro'
