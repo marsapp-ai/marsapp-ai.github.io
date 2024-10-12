@@ -1,0 +1,63 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<section class="bg-blue-50 dark:bg-transparent flex flex-col py-24" id="products">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Title -->
+    <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">Our Products</h1>
+
+    <!-- Courier and Spot Section -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <!-- Courier Section -->
+      <div>
+        <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Courier</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+          Send packages locally and worldwide for the best price.
+        </p>
+
+        <!-- Courier Logos (Flexbox for the logo grid) -->
+        <div class="flex flex-wrap justify-start items-center gap-6 mb-8">
+          <img src="/images/couriers/fan.png" alt="FAN" class="h-15 sm:h-20" />
+          <img src="/images/couriers/sameday.svg" alt="Sameday" class="h-10 sm:h-15" />
+          <img src="/images/couriers/cargus.svg" alt="Cargus" class="h-10 sm:h-15" />
+          <img src="/images/couriers/fedex.png" alt="FedEx" class="h-15 sm:h-22" />
+          <img src="/images/couriers/dpd.png" alt="DPD" class="h-10 sm:h-15" />
+          <img src="/images/couriers/ups.png" alt="UPS" class="h-15 sm:h-17" />
+        </div>
+      </div>
+
+      <!-- Spot Section -->
+      <div>
+        <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Spot</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+          Transport cargo across Europe in an end-to-end solution.
+        </p>
+
+        <!-- Features List (Checkmark icons) -->
+        <ul class="space-y-4 text-lg text-gray-600 dark:text-gray-400">
+          <li class="flex items-center">
+            <Icon name="tabler:check" class="text-blue-600 w-6 h-6 mr-2" />
+            Import your own fleet
+          </li>
+          <li class="flex items-center">
+            <Icon name="tabler:check" class="text-blue-600 w-6 h-6 mr-2" />
+            Leverage AI to choose the best solution
+          </li>
+          <li class="flex items-center">
+            <Icon name="tabler:check" class="text-blue-600 w-6 h-6 mr-2" />
+            Monitor the transport
+          </li>
+          <li class="flex items-center">
+            <Icon name="tabler:check" class="text-blue-600 w-6 h-6 mr-2" />
+            Search cargo for your truck
+          </li>
+          <li class="flex items-center">
+            <Icon name="tabler:check" class="text-blue-600 w-6 h-6 mr-2" />
+            Real-time ETA and notification
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

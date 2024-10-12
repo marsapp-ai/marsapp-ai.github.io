@@ -1,0 +1,10 @@
+---
+import { SITE } from 'mars:config';
+---
+
+<span
+  class="flex items-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold whitespace-nowrap text-white dark:text-white"
+>
+  <img src={'/images/logo.png'} alt={SITE?.name} class="w-5 h-5 md:h-5 mb-1.5" />
+  {SITE?.name}
+</span>

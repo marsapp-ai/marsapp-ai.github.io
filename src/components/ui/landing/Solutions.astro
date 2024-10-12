@@ -1,0 +1,111 @@
+---
+import { Icon } from 'astro-icon/components';
+---
+
+<section id="solutions" class="min-h-screen flex flex-col items-center justify-center py-2">
+  <!-- Title -->
+  <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
+    Solutions for all your transport needs
+  </h1>
+
+  <!-- Transport options grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+    <!-- Small Packages option -->
+    <div
+      class="relative bg-white dark:bg-gray-800 shadow-lg rounded-lg p-8 hover:shadow-2xl transition-shadow duration-300"
+    >
+      <div class="absolute top-0 left-0 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded-br-lg">
+        Courier
+      </div>
+      <div class="flex justify-center mb-6">
+        <!-- Icon for small packages -->
+        <div class="bg-orange-500 p-4 rounded-full">
+          <Icon name="tabler:package" class="w-12 h-12 text-white" />
+        </div>
+      </div>
+      <h2 class="text-xl font-semibold text-gray-800 dark:text-gray-200 text-center mb-4">Small Packages</h2>
+      <p class="text-center text-gray-600 dark:text-gray-400">
+        Transport locally or internationally everything that your company needs.
+      </p>
+    </div>
+
+    <!-- I have freight, need a truck option -->
+    <div
+      class="relative bg-white dark:bg-gray-800 shadow-lg rounded-lg p-8 hover:shadow-2xl transition-shadow duration-300"
+    >
+      <div class="absolute top-0 left-0 bg-accent text-white text-xs font-bold px-2 py-1 rounded-br-lg">SPOT</div>
+      <div class="flex justify-center mb-6">
+        <!-- Icon for freight -->
+        <div class="bg-accent p-4 rounded-full">
+          <Icon name="tabler:truck-loading" class="w-12 h-12 text-white" />
+        </div>
+      </div>
+      <h2 class="text-xl font-semibold text-gray-800 dark:text-gray-200 text-center mb-4">
+        I have freight, need a truck
+      </h2>
+      <p class="text-center text-gray-600 dark:text-gray-400">Find the best transport solution for your freight.</p>
+    </div>
+
+    <!-- I have truck, need freight option -->
+    <div
+      class="relative bg-white dark:bg-gray-800 shadow-lg rounded-lg p-8 hover:shadow-2xl transition-shadow duration-300"
+    >
+      <div class="absolute top-0 left-0 bg-primary text-white text-xs font-bold px-2 py-1 rounded-br-lg">SPOT</div>
+      <div class="flex justify-center mb-6">
+        <!-- Icon for truck -->
+        <div class="bg-primary p-4 rounded-full">
+          <Icon name="tabler:truck" class="w-12 h-12 text-white" />
+        </div>
+      </div>
+      <h2 class="text-xl font-semibold text-gray-800 dark:text-gray-200 text-center mb-4">
+        I have truck, need freight
+      </h2>
+      <p class="text-center text-gray-600 dark:text-gray-400">Find freight for your truck so you never run empty.</p>
+    </div>
+  </div>
+</section>
+
+<section class="flex flex-col py-2">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <!-- Main Heading for the Software Section -->
+    <h2 class="text-5xl font-bold text-gray-900 dark:text-white mb-4">How it works?</h2>
+
+    <!-- Features grid based on the image content -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-12">
+      <!-- FAST feature -->
+      <div>
+        <h3 class="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+          <span class="text-2xl text-red-600 dark:text-red-600">01</span> / FAST
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 text-justify">
+          Our platform offers a fast, integrated solution for all your logistics needs. Through seamless integration
+          with couriers and freight exchange platforms, users can easily compare and choose the best delivery options
+          for parcels, envelopes and freight.
+        </p>
+      </div>
+
+      <!-- SMART feature -->
+      <div>
+        <h3 class="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+          <span class="text-2xl text-red-600">02</span> / SMART
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 text-justify">
+          Sophisticated algorithms analyze multiple factors such as cost, delivery time, and carrier availability to
+          provide the optimal transport solution from point A to point B.
+        </p>
+      </div>
+
+      <!-- EASY feature -->
+      <div>
+        <h3 class="text-2xl font-bold text-blue-600 dark:text-blue-400 mb-2">
+          <span class="text-2xl text-red-600 dark:text-red-600">03</span> / EASY
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 text-justify">
+          Carriers can also leverage the platform to offer transportation services, manage bookings, and optimize route
+          planning. With real-time tracking and updates, customers can stay informed every step of the way, ensuring
+          transparency and efficiency in all their logistics operations.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

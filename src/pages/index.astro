@@ -1,0 +1,57 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import Solutions from '../components/ui/landing/Solutions.astro';
+import Products from '../components/ui/landing/Products.astro';
+import Advantages from '../components/ui/landing/Advantages.astro';
+import AdvantagesMobile from '../components/ui/landing/AdvantagesMobile.astro';
+
+const metadata = {
+  title: 'M.A.R.S. — AI powered transport logistics',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    id="mission"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Download driver app',
+        href: 'https://apps.apple.com/ro/app/m-a-r-s-driver/id6717610898',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+    ]}
+  >
+    <Fragment class="light:text-white" slot="title">
+      <span class="text-white dark:text-white"> Revolutionize transportation. </span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline text-white font-bold"> Order your transport service. Digitally. </span>
+    </Fragment>
+  </Hero>
+
+  <!-- Solutions *************** -->
+
+  <Solutions />
+
+  <!-- Products **************** -->
+
+  <Products />
+
+  <!-- Advantages **************** -->
+  <div class="hidden md:block">
+    <Advantages />
+  </div>
+
+  <!-- Advantages mobile **************** -->
+  <div class="block md:hidden">
+    <AdvantagesMobile />
+  </div>
+</Layout>
