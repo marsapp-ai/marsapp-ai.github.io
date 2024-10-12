@@ -7,6 +7,6 @@ const isSubdomain = Astro.request.url.includes('mars-blogifydsa980-1c706cdsa8ud9
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{isSubdomain && <meta name="robots" content="noindex, nofollow">}
+{isSubdomain && <meta name="robots" content="noindex, nofollow" />}
 
 <link rel="sitemap" href={getAsset('/sitemap-index.xml')} />

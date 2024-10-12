@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Directory containing the Markdown files
+postsDir="src/content/post"
+
+# Function to extract, count, and sort tags
+extract_and_sort_tags() {
+  tags=()
+
+  # Traverse all Markdown files in the directory
+  for file in "$postsDir"/*.md; do
+    # Extract tags from the front matter
+    file_tags=$(sed -n '/^tags:/,/^ *[^- ]/p' "$file" | awk '/- / {print substr($0, index($0, "- ") + 2)}')
+    while IFS= read -r tag; do
+      tags+=("$tag")
+    done <<< "$file_tags"
+  done
+
+  # Count and sort tags
+  printf "%s\n" "${tags[@]}" | sort | uniq -c | sort -k2
+}
+
+# Execute the function and print the result
+extract_and_sort_tags

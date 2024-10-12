@@ -12,7 +12,7 @@ metadata:
   title:
     default: M.A.R.S.
     template: 'M.A.R.S. — %s'
-  description: "M.A.R.S. - Your ultimate platform for efficient and transparent transportation solutions, leveraging AI and real-time tracking to optimize logistics operations."
+  description: 'M.A.R.S. - Your ultimate platform for efficient and transparent transportation solutions, leveraging AI and real-time tracking to optimize logistics operations.'
   robots:
     index: true
     follow: true
