@@ -19,6 +19,10 @@ export const headerData = {
       text: 'Advantages',
       href: getPermalink('/#advantages'),
     },
+    {
+      text: 'Blog',
+      href: getPermalink('/blog'),
+    },
   ],
   actions: [{ text: 'Go to app', href: SITE.app, target: '_blank' }],
 };

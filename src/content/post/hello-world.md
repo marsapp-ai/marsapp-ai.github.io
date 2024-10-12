@@ -2,7 +2,7 @@
 title: hello world
 excerpt: hello-world
 category: test
-image: src/assets/images/logo.png
-author: laurentiu
+image: ~/assets/images/logo.png
+author: MARS team
 ---
 sadsasad
