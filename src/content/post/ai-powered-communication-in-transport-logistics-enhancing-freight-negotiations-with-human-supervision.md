@@ -1,6 +1,6 @@
 ---
-title: "AI-powered communication in transport logistics: Enhancing freight
-  negotiations with human supervision"
+title: AI-powered communication in transport logistics - enhancing freight
+  negotiations with human supervision
 excerpt: The future of freight management and logistics is being shaped by
   projects like ours, which aim to revolutionize communication between companies
   and carriers. By harnessing AI to suggest responses and negotiate terms with
