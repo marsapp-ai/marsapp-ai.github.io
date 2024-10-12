@@ -1,5 +1,5 @@
 ---
-title: "Study case: Centralizing Freight Exchange Communications with AI and AWS
+title: "Study case: centralizing freight exchange communications with AI and AWS
   Services"
 excerpt: In the fast-paced world of transport logistics, effective communication
   is crucial for managing freight exchanges.
@@ -7,9 +7,9 @@ category: Freight Exchange
 tags:
   - AI in transport logistics
   - freight exchange communication
-  - Freight management automation
+  - freight management automation
   - AWS SES and SQS
-  - Transport logistics solutions
+  - transport logistics solutions
 image: ~/assets/images/blog/freight-exchange-central-communication.webp
 publishDate: 2024-10-14T09:02:00.000Z
 author: Laurentiu, tech lead
