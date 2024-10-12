@@ -3,10 +3,10 @@ title: Is AI the new frontier in transport logistics?
 excerpt: AI - new frontier in transport logistics
 category: AI
 tags:
-  - ai
-  - software
-  - transport logistics
-  - intelligent resource management
+  - AI in transport logistics
+  - AI driven freight transport
+  - future of supply chain management
+  - automated warehouses
 image: ~/assets/images/blog/mars-new-age-transport-logistics.webp
 publishDate: 2024-10-11T17:01:00.000Z
 author: Laurentiu, tech lead
