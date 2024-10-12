@@ -19,7 +19,7 @@ metadata:
   openGraph:
     site_name: M.A.R.S.
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/default.webp'
         width: 1200
         height: 628
     type: website
