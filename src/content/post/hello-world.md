@@ -2,7 +2,7 @@
 title: hello world
 excerpt: hello-world
 category: test
-image: dsadas
+image: logo.png
 author: laurentiu
 ---
 sadsasad
