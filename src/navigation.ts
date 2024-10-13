@@ -45,6 +45,10 @@ export const footerData = {
         { text: 'Contact us', href: getPermalink('/contact') },
       ],
     },
+    {
+      title: 'Updates and insights',
+      links: [{ text: 'Blog', href: getPermalink('/blog') }],
+    },
   ],
   secondaryLinks: [
     { text: 'Terms and conditions', href: getPermalink('/terms-and-conditions') },
