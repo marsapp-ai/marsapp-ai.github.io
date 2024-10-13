@@ -46,7 +46,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
           {
             secondaryLinks.map(({ text, href }, index) => (
               <>
-                {index !== 0 ? ' · ' : ''}
+                <span class="text-white dark:text-gray-400">{index !== 0 ? ' · ' : ''}</span>
                 <a
                   class="text-white dark:text-gray-400 hover:text-white hover:underline transition duration-150 ease-in-out"
                   href={href}
