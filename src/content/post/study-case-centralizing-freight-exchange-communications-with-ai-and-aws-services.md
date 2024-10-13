@@ -11,7 +11,7 @@ tags:
   - AWS SES and SQS
   - transport logistics solutions
 image: ~/assets/images/blog/freight-exchange-central-communication.webp
-publishDate: 2024-10-14T09:02:00.000Z
+publishDate: 2024-10-14T06:02:00.000Z
 author: Laurentiu, tech lead
 ---
 In the fast-paced world of transport logistics, effective communication is crucial for managing freight exchanges. Traditionally, this communication has been scattered across various platforms like email and WhatsApp, making it challenging for transport managers to keep track of all interactions and make informed decisions. To address this issue, we developed a solution that centralizes these communications, leveraging Amazon Simple Email Service (SES) and Amazon Simple Queue Service (SQS).
