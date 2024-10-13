@@ -14,7 +14,7 @@ tags:
   - supervised learning in logistics
   - freight exchange communication
 image: ~/assets/images/blog/ai-learning-logistics-communication.webp
-publishDate: 2024-10-13T10:01:00.000Z
+publishDate: 2024-10-13T11:49:00.000Z
 author: Laurentiu, tech lead
 ---
 In the ever-evolving world of transport logistics, the integration of artificial intelligence (AI) is proving to be a game-changer. The future of freight management and logistics is being shaped by projects like ours, which aim to revolutionize communication between companies and carriers. By harnessing AI to suggest responses and negotiate terms with carriers, transport managers can now optimize freight exchanges, saving time, reducing errors, and improving overall efficiency. However, human oversight remains crucial to ensure the accuracy and reliability of the AI system.
