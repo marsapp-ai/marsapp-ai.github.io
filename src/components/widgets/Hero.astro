@@ -19,8 +19,7 @@ const {
 <section
   class="relative md:-mt-[76px] not-prose"
   {...id ? { id } : {}}
-  style={{ backgroundImage: `url(/images/mars-vision.webp)`, backgroundSize: 'cover' }}
->
+  style={{ backgroundImage: `url(/images/mars-vision.webp)`, backgroundSize: 'cover' }}>
   <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
     <slot name="bg">
       {bg ? <Fragment set:html={bg} /> : null}
@@ -42,7 +41,7 @@ const {
           {
             title && (
               <h1
-                class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
+                class="text-4xl xs:text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
                 set:html={title}
               />
             )

@@ -5,6 +5,9 @@ export default {
   content: ['./src/**/*.{astro,html,js,jsx,json,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
+      screens: {
+        xs: '420px',
+      },
       colors: {
         primary: 'var(--aw-color-primary)',
         secondary: 'var(--aw-color-secondary)',
