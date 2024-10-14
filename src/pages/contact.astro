@@ -1,0 +1,40 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const CONTACT_INFO = {
+  address: ['Simion Barnutiu 34', 'Timisoara', 'Romania'],
+  email: 'office@marsapp.ai',
+  phone: '+40 747 772 358',
+};
+---
+
+<Layout>
+  <section class="text-center p-5">
+    <div class="max-w-4xl mx-auto p-6">
+      <h1 class="text-[46px] font-bold leading-[46px] text-center mb-8">Get in touch</h1>
+
+      <img class="w-full max-w-4xl mb-8" src="/public/images/contact-map.png" alt="Map showing the location" />
+
+      <div class="flex justify-around flex-wrap">
+        {
+          Object.entries(CONTACT_INFO).map(([key, value]) => (
+            <div class="text-lg">
+              <h2 class="text-2xl font-bold flex items-center justify-center mb-2 capitalize">{key}</h2>
+              <div class="text-center">
+                {Array.isArray(value) ? (
+                  value.map((part) => <p class="text-base">{part}</p>)
+                ) : key === 'email' ? (
+                  <a class="text-base" href={`mailto:${value}`}>
+                    {value}
+                  </a>
+                ) : (
+                  <p class="text-base">{value}</p>
+                )}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Layout>
