@@ -52,7 +52,7 @@ export const footerData = {
   ],
   secondaryLinks: [
     { text: 'Terms and conditions', href: getPermalink('/en/terms-and-conditions') },
-    { text: 'Privacy policy', href: getPermalink('/privacy-policy') },
+    { text: 'Privacy policy', href: getPermalink('/en/privacy-policy') },
   ],
   footNote: '©Copyright M.A.R.S. · All rights reserved.',
 };
