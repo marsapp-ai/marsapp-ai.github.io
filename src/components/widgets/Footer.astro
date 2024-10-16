@@ -30,15 +30,18 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
   class:list={[
     { dark: theme === 'dark' },
     'bg-accent dark:bg-transparent relative border-t border-gray-200 dark:border-slate-800 not-prose',
-  ]}
->
+  ]}>
   <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
   <div class="dark:bg-transparent relative max-w-7xl mx-auto px-4 sm:px-6 dark:text-slate-300">
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
       <div class="col-span-12 lg:col-span-4">
         <div class="mb-2">
           <a class="text-white dark:text-white flex items-center font-bold text-xl" href={getHomePermalink()}>
-            <img src={'/images/logo.png'} alt={SITE?.name} class="w-5 h-5 md:h-5 mb-1.5" />
+            <img
+              src={'/images/logo.png'}
+              alt="Logo of Management Application For Route Strategy"
+              class="w-5 h-5 mb-1.5"
+            />
             {SITE?.name}
           </a>
         </div>
@@ -68,8 +71,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
                     <a
                       class="text-white hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
                       href={href}
-                      aria-label={ariaLabel}
-                    >
+                      aria-label={ariaLabel}>
                       <Fragment set:html={text} />
                     </a>
                   </li>
@@ -89,8 +91,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
                 <a
                   class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
                   aria-label={ariaLabel}
-                  href={href}
-                >
+                  href={href}>
                   {icon && <Icon name={icon} class="w-5 h-5" />}
                   <Fragment set:html={text} />
                 </a>
