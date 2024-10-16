@@ -86,53 +86,53 @@ const DEV_TEAM = [
   </section>
 
   <!-- Meet the People Behind Section -->
-  <section class="py-12">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">Meet the people behind</h2>
-
-      <!-- People Section -->
-      <div class="mb-12">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          {
-            PEOPLE.map((person) => (
-              <div class="text-center">
-                {person?.image &&
-                  (person.linkedin ? (
-                    <a href={person.linkedin} target="_blank">
-                      <img class="w-32 h-32 rounded-full mx-auto mb-4" src={person.image} alt={person.name} />
-                    </a>
-                  ) : (
-                    <img class="w-32 h-32 rounded-full mx-auto mb-4" src={person.image} alt={person.name} />
-                  ))}
-                <h4 class="text-2xl font-semibold">{person.name}</h4>
-                <p class="text-base text-gray-600">{person.role}</p>
-                {person.linkedin && (
-                  <a href={person.linkedin} target="_blank" class="text-blue-600 flex items-center justify-center">
-                    <Icon name="tabler:brand-linkedin" class="w-6 h-6 mr-2" />
-                  </a>
-                )}
-              </div>
-            ))
-          }
-        </div>
-      </div>
-
-      <!-- Development Team Section -->
-      <div>
-        <h3 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-6 text-center">Development Team</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-1 gap-8">
-          {
-            DEV_TEAM.map((member) => (
-              <div class="text-center">
-                <h4 class="text-2xl font-semibold">{member.name}</h4>
-                <a href={member.linkedin} target="_blank" class="text-blue-600 flex items-center justify-center">
-                  <Icon name="tabler:brand-linkedin" class="w-6 h-6 mr-2" />
-                </a>
-              </div>
-            ))
-          }
-        </div>
-      </div>
-    </div>
-  </section>
+  <!--<section class="py-12">-->
+  <!--  <div class="max-w-6xl mx-auto px-4">-->
+  <!--    <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">Meet the people behind</h2>-->
+  
+  <!--    &lt;!&ndash; People Section &ndash;&gt;-->
+  <!--    <div class="mb-12">-->
+  <!--      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">-->
+  <!--        {-->
+  <!--          PEOPLE.map((person) => (-->
+  <!--            <div class="text-center">-->
+  <!--              {person?.image &&-->
+  <!--                (person.linkedin ? (-->
+  <!--                  <a href={person.linkedin} target="_blank">-->
+  <!--                    <img class="w-32 h-32 rounded-full mx-auto mb-4" src={person.image} alt={person.name} />-->
+  <!--                  </a>-->
+  <!--                ) : (-->
+  <!--                  <img class="w-32 h-32 rounded-full mx-auto mb-4" src={person.image} alt={person.name} />-->
+  <!--                ))}-->
+  <!--              <h4 class="text-2xl font-semibold">{person.name}</h4>-->
+  <!--              <p class="text-base text-gray-600">{person.role}</p>-->
+  <!--              {person.linkedin && (-->
+  <!--                <a href={person.linkedin} target="_blank" class="text-blue-600 flex items-center justify-center">-->
+  <!--                  <Icon name="tabler:brand-linkedin" class="w-6 h-6 mr-2" />-->
+  <!--                </a>-->
+  <!--              )}-->
+  <!--            </div>-->
+  <!--          ))-->
+  <!--        }-->
+  <!--      </div>-->
+  <!--    </div>-->
+  
+  <!--    &lt;!&ndash; Development Team Section &ndash;&gt;-->
+  <!--    <div>-->
+  <!--      <h3 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-6 text-center">Development Team</h3>-->
+  <!--      <div class="grid grid-cols-1 sm:grid-cols-1 gap-8">-->
+  <!--        {-->
+  <!--          DEV_TEAM.map((member) => (-->
+  <!--            <div class="text-center">-->
+  <!--              <h4 class="text-2xl font-semibold">{member.name}</h4>-->
+  <!--              <a href={member.linkedin} target="_blank" class="text-blue-600 flex items-center justify-center">-->
+  <!--                <Icon name="tabler:brand-linkedin" class="w-6 h-6 mr-2" />-->
+  <!--              </a>-->
+  <!--            </div>-->
+  <!--          ))-->
+  <!--        }-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--</section>-->
 </Layout>
