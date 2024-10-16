@@ -96,15 +96,14 @@ const DEV_TEAM = [
           {
             PEOPLE.map((person) => (
               <div class="text-center">
-                {person?.image && (
-                  person.linkedin ? (
+                {person?.image &&
+                  (person.linkedin ? (
                     <a href={person.linkedin} target="_blank">
                       <img class="w-32 h-32 rounded-full mx-auto mb-4" src={person.image} alt={person.name} />
                     </a>
                   ) : (
                     <img class="w-32 h-32 rounded-full mx-auto mb-4" src={person.image} alt={person.name} />
-                  )
-                )}
+                  ))}
                 <h4 class="text-2xl font-semibold">{person.name}</h4>
                 <p class="text-base text-gray-600">{person.role}</p>
                 {person.linkedin && (
