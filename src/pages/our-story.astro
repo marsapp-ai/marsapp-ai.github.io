@@ -3,32 +3,33 @@ import { Icon } from 'astro-icon/components';
 import Layout from '../layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'M.A.R.S. — Our story and software',
+  title: 'M.A.R.S. — Our story and meet the people behind',
   ignoreTitleTemplate: true,
 };
 
 const PEOPLE = [
   {
-    name: 'Adrian Minea',
-    role: 'CEO',
     image: '/images/team/adrian-minea.jpeg',
     linkedin: 'https://www.linkedin.com/in/adrian-minea-82383812',
+    name: 'Adrian Minea',
+    role: 'CEO',
   },
   {
+    image: '/images/team/mihai-andrei.jpeg',
     name: 'Mihai Andrei',
     role: 'Product Owner',
   },
   {
-    name: 'Voicu Stoiciu',
-    role: 'Head of business development',
     image: '/images/team/voicu-stoiciu.jpeg',
     linkedin: 'https://www.linkedin.com/in/groza-beniamin',
+    name: 'Voicu Stoiciu',
+    role: 'Head of business development',
   },
   {
-    name: 'Beniamin Groza',
-    role: 'CTO',
     image: '/images/team/beniamin-groza.png',
     linkedin: 'https://www.linkedin.com/in/groza-beniamin',
+    name: 'Beniamin Groza',
+    role: 'CTO',
   },
 ];
 
@@ -114,7 +115,7 @@ const DEV_TEAM = [
       <!-- Development Team Section -->
       <div>
         <h3 class="text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-6 text-center">Development Team</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-1 gap-8">
           {
             DEV_TEAM.map((member) => (
               <div class="text-center">
