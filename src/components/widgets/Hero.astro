@@ -19,7 +19,8 @@ const {
 <section
   class="relative md:-mt-[76px] not-prose"
   {...id ? { id } : {}}
-  style={{ backgroundImage: `url(/images/mars-vision.webp)`, backgroundSize: 'cover' }}>
+  style={{ backgroundImage: `url(/images/mars-vision.webp)`, backgroundSize: 'cover' }}
+>
   <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
     <slot name="bg">
       {bg ? <Fragment set:html={bg} /> : null}

@@ -4,6 +4,10 @@ import { SITE } from 'mars:config';
 export const headerData = {
   links: [
     {
+      text: 'Our story',
+      href: getPermalink('/our-story'),
+    },
+    {
       text: 'Mission',
       href: getPermalink('/#mission'),
     },
@@ -18,6 +22,10 @@ export const headerData = {
     {
       text: 'Advantages',
       href: getPermalink('/#advantages'),
+    },
+    {
+      text: 'Contact us',
+      href: getPermalink('/contact'),
     },
     {
       text: 'Blog',
