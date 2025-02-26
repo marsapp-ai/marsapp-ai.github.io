@@ -1,6 +1,6 @@
 site:
   name: .A.R.S.
-  site: 'https://ui.marsapp.ai'
+  site: 'https://marsapp.ai'
   app: 'https://app.marsapp.ai'
   base: '/'
   trailingSlash: false

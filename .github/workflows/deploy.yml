@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NODE_ENV: production
-      SITE: http://ui.marsapp.ai
+      SITE: http://marsapp.ai
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
